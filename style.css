@@ -1,0 +1,153 @@
+body {
+    font-family: cursive;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-image: url('bgq.webp');
+     background-position: center;
+     background-size: cover;
+   }
+   
+   .todo-container {
+     text-align: center;
+   }
+   
+   h2 {
+    color: yellowgreen;
+    box-shadow: 3px, 3px, 1 ;
+    text-shadow:0 0 20px red;
+  }
+
+  h3 {
+    color: yellowgreen;
+    box-shadow: 3px, 3px, 1 ;
+    text-shadow:0 0 20px red;
+  }
+
+   input[type="text"] {
+     padding: 20px;
+     margin-bottom: 15px;
+     border-radius: 50px;
+   }
+   
+   button {
+    font-family: fantasy;
+    font-size: 1rem;
+     padding: 10px 20px;
+     background-color: yellowgreen;
+     color: black;
+     cursor: pointer;
+     border-radius: 50px;
+   }
+   
+   ul {
+     list-style-type: none;
+     padding: 0;
+   }
+   
+   li {
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: space-between;
+     opacity: 1;
+     max-height: 50px;
+     color: beige;
+     border: 2px;
+     border-color: black;
+     
+   }
+ 
+ 
+ .container {
+   width: 50%;
+   margin: 50px auto;
+   background-color: rebeccapurple;
+   background-size: cover;
+   background-position: center;
+   padding: 20px;
+   border-radius: 50px;
+   box-shadow: 0 0 30px yellow;
+ }
+ 
+ ul {
+   list-style: none;
+   padding: 0;
+   
+ }
+ 
+ li {
+   margin-bottom: 10px;
+ }
+ 
+ 
+ button {
+  font-family:fantasy;
+  font-size: 1rem;
+   padding: 10px 15px;
+   margin-left: 10px;
+   cursor: pointer;
+   border-radius: 50px;
+ }
+ 
+ h1 {
+  text-align: center;
+   color: yellowgreen;
+   box-shadow: 3px, 3px, 1 ;
+   text-shadow:0 0 20px yellow;
+ }
+
+ .task-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+ }
+ 
+ .task-item button {
+   padding: 8px 10px;
+   margin-left: 10px;
+   cursor: pointer;
+ }
+ 
+ .task-item button:first-child {
+   margin-left: 0; 
+ }
+ 
+ 
+ .edit-button {
+   margin-left: 500px;
+ }
+ 
+ 
+ .task-item button {
+   padding: 8px 10px;
+   margin-left: 10px;
+   cursor: pointer;
+ }
+ 
+ .task-item button.edit-button {
+   margin-left: auto; 
+ }
+ 
+ .input-wrapper {
+   position: relative;
+ }
+ 
+ #taskInput {
+   border: 2px transparent; 
+   padding: 8px; 
+ }
+ 
+ #taskInput::placeholder {
+   color: #888888;
+   opacity: 0.6; 
+ }
+ 
+ #taskInput:focus {
+   outline: none; 
+   border-color: #cccccc04; 
+ }
+ 
+ 
